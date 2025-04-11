@@ -1,39 +1,52 @@
-<h1>Sobre o Projeto</h1>
+# 📘 Projeto de Funções JavaScript Interativas
 
-<p>Este projeto contém diversas funções escritas em JavaScript para interagir com o usuário através de prompts e manipulação do DOM. Ele inclui funcionalidades básicas como soma de números, contagem de cliques, cálculo de médias e uma calculadora simples.</p>
+Este projeto contém diversas funções escritas em **JavaScript** para interagir com o usuário através de prompts e manipulação do DOM. Ele inclui funcionalidades básicas como soma de números, contagem de cliques, cálculo de médias e uma calculadora simples.
 
-<h1>Funcionalidades</h1>
+---
 
-<p>1. clicou()</p>
+## 🔧 Funcionalidades
 
-<p>Exibe um alerta informando que o botão foi clicado.</p>
+### 1. `clicou()`
 
-<p>2. somar()</p>
+- Exibe um alerta informando que o botão foi clicado.
 
-<p>Solicita dois números ao usuário através de prompts.</p>
+### 2. `somar()`
 
-<p>Realiza a soma dos números.</p>
+- Solicita dois números ao usuário através de `prompt`.
+- Realiza a soma dos números.
+- Exibe o resultado da soma dentro do elemento `section#res`.
 
-<p>Exibe o resultado da soma dentro de um elemento HTML identificado por section#res.</p>
+### 3. `contar()` e `zerar()`
 
-<p>3. contar() e zerar()</p>
+- `contar()`: Aumenta um contador a cada clique e exibe o valor atualizado na página.
+- `zerar()`: Reseta o contador para zero e atualiza a exibição.
 
-<p>contar(): Aumenta um contador a cada clique e exibe o valor atualizado na página.</p>
+### 4. `calcularSoma()`
 
-<p>zerar(): Reseta o contador para zero e atualiza a exibição.</p>
+- Solicita duas notas ao usuário.
+- Calcula a média entre as duas notas.
+- Exibe se o usuário foi **aprovado** (média ≥ 6) ou **reprovado** (média < 6) dentro do elemento `.mostrarNotas`.
 
-<p>4. calcularSoma()</p>
+### 5. `Calculadora()`
 
-<p>Solicita duas notas ao usuário.</p>
+- Apresenta um menu para o usuário escolher uma operação matemática: soma, subtração, multiplicação ou divisão.
+- Solicita dois números ao usuário.
+- Realiza a operação escolhida e exibe o resultado no elemento `.mostrarTexto`.
 
-<p>Calcula a média entre as duas notas.</p>
+---
 
-<p>Exibe se o usuário foi aprovado (média ≥ 6) ou reprovado (média < 6) dentro do elemento .mostrarNotas.</p>
+## 🚀 Tecnologias Utilizadas
 
-<p>5. Calculadora()</p>
+- HTML
+- CSS
+- JavaScript
 
-<p>Apresenta um menu para o usuário escolher uma operação matemática básica: soma, subtração, multiplicação ou divisão.</p>
+---
 
-<p>Solicita dois números ao usuário.</p>
+## 💡 Objetivo
 
-<p>Realiza a operação escolhida e exibe o resultado no elemento .mostrarTexto.</p>
+Praticar lógica de programação, manipulação do DOM e uso de estruturas condicionais e funções em JavaScript de forma interativa e didática.
+
+
+
+
